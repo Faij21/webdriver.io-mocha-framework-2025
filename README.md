@@ -70,7 +70,7 @@ npx allure open allure-report
 Screenshots are saved under /screenshots folder on test failures and automatically attached to the Allure report.
 
 ## 🙋‍♂️ Author
-Faijan Shaikh
+Faijan Shaikh 
 GitHub Repo: https://github.com/Faij21/webdriver.io-mocha-framework-2025
 
 
