@@ -7,6 +7,10 @@ This project is a scalable end-to-end test automation framework built using **We
 ## 📁 Project Structure
 
 webdriver.io-mocha-framework-2025/
+
+- ├── allure-results/ # Allure raw test result data
+- ├── allure-report/ # Generated Allure reports
+- ├── screenshots/ # Screenshots captured on failures
 - │
 - ├── test/
 - │ ├── base/ # BaseTest class - handles env config
@@ -15,9 +19,6 @@ webdriver.io-mocha-framework-2025/
 - │ ├── resources/ # Test data & config files
 - │ └── utils/ # Utility classes (JS commands, wait utils)
 - │
-- ├── allure-results/ # Allure raw test result data
-- ├── allure-report/ # Generated Allure reports
-- ├── screenshots/ # Screenshots captured on failures
 - ├── wdio.conf.ts # WebdriverIO configuration file
 - ├── package.json # NPM scripts and dependencies
 - └── tsconfig.json # TypeScript configuration
