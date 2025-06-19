@@ -7,8 +7,8 @@ This project is a scalable end-to-end test automation framework built using **We
 ## 📁 Project Structure
 
 webdriver.io-mocha-framework-2025/
--│
--├── test/
+- │
+- ├── test/
 -│ ├── base/ # BaseTest class - handles env config
 -│ ├── pages/ # Page Objects
 -│ ├── specs/ # Test specs
