@@ -30,17 +30,6 @@ webdriver.io-mocha-framework-2025/
 
 npm install
 
-## 🌐 Environment Handling
-Environment URLs and test config are managed from:
-test/resources/config.properties
-
-ENV=QA
-QA_URL=https://magento.softwaretestingboard.com/
-STAGE_URL=https://practice-automation.com/
-PROD_URL=https://prod.example.com/
-
-Switch between QA, STAGE, or PROD by changing the ENV value.
-
 ## Run Test Suite
 
 1. npm run wdio
