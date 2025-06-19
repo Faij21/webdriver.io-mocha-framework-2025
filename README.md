@@ -59,6 +59,19 @@ This will:
 
 **This will execute single test**
 
+## 🧾 Reporting
+### ✨ Allure Report
+After test execution:
+
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+
+## 📸 Screenshots on Failure
+Screenshots are saved under /screenshots folder on test failures and automatically attached to the Allure report.
+
+## 🙋‍♂️ Author
+Faijan Shaikh
+GitHub Repo: https://github.com/Faij21/webdriver.io-mocha-framework-2025
 
 
 
