@@ -30,3 +30,18 @@ webdriver.io-mocha-framework-2025/
 
 npm install
 
+## Run Test Suite
+
+npm run wdio
+
+This will:
+
+** Clean screenshots, allure-results, and allure-report folders
+
+** Execute all tests inside test/specs/
+
+** Automatically take screenshots on failure
+
+** Generate raw results in allure-results/
+
+
