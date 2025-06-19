@@ -30,18 +30,35 @@ webdriver.io-mocha-framework-2025/
 
 npm install
 
+## 🌐 Environment Handling
+Environment URLs and test config are managed from:
+test/resources/config.properties
+
+ENV=QA
+QA_URL=https://magento.softwaretestingboard.com/
+STAGE_URL=https://practice-automation.com/
+PROD_URL=https://prod.example.com/
+
+Switch between QA, STAGE, or PROD by changing the ENV value.
+
 ## Run Test Suite
 
-npm run wdio
+1. npm run wdio
 
 This will:
 
-** Clean screenshots, allure-results, and allure-report folders
+**Clean screenshots, allure-results, and allure-report folders**
 
-** Execute all tests inside test/specs/
+**Execute all tests inside test/specs/**
 
-** Automatically take screenshots on failure
+**Automatically take screenshots on failure**
 
-** Generate raw results in allure-results/
+**Generate raw results in allure-results/**
+
+2. npx wdio run wdio.conf.ts --spec file path (e.g, npx wdio run wdio.conf.ts --spec ./test/specs/login.spec.ts)
+
+**This will execute single test**
+
+
 
 
